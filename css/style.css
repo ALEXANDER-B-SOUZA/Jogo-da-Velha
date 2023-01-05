@@ -18,3 +18,10 @@ table{
     border: 5px #ffffff solid;
     border-collapse: collapse;
 }
+
+.caixa{
+    width:750px;
+	height:750px;
+	background-color:rgb(212, 211, 211);
+	border-radius: 10px;
+}
