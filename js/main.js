@@ -1,1 +1,0 @@
-alert("Se estiver lendo isto, é porque deu certo até aqui. Clique em ok para abrir o jogo.");
