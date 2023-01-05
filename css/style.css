@@ -1,24 +1,27 @@
-h1, div{font color:"#ffffff"; width:500px; 
+/*alterando cor e posicionamento h1 e div*/
+h1, div{font color:"#ffffff"; width:500px;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 1em; 
     height: 75px;
     position: relative;
     margin-left: auto;
    margin-right: auto;
    text-align:center;
 }
-
+/* alterando posicionamento da td */
 td{ 
     padding: 3em;
     margin: 0;
     text-align: center;
     border: 5px rgb(0, 0, 2) solid ;
 }
-
+/* alterando posicionamento da tabela */
 table{
     align-items: center;
     border: 5px #ffffff solid;
     border-collapse: collapse;
 }
-
+/* manipulando caixa delimitadora do jogo */
 .caixa{
     width:750px;
 	height:750px;
