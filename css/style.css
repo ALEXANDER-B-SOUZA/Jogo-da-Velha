@@ -1,5 +1,5 @@
 /*alterando cor e posicionamento h1 e div*/
-h1, div{font color:"#ffffff"; width:500px;
+h1, div{width:500px;
     font-family: Verdana, Helvetica, sans-serif;
     font-size: 1em; 
     height: 75px;
