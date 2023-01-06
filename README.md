@@ -7,7 +7,7 @@ Tarefas
 [X] Criar uma cor de fundo.
 [X] Criar divisões do jogo.
 [X] Colocar frase para insentivar jogador a escolher um dos caracteres.
-[ ] fazer o programa reconhecer o caracter escolhido como avatar do cliente e guardar para usar no jogo.
+[X] fazer o programa reconhecer o caracter escolhido. como avatar do cliente e guardar para usar no jogo.
 [ ] fazer o programa reconhecer o caracter não escolhido como avatar da máquina e guardar para usar no jogo.
 [ ] Fazer programa identificar local onde cliente clicou no jogo e marcar visualmente com o caracter que o represente.
 [ ] Fazer a máquina marcar aleatoriamente com o seu respectivo caracter um espaço vazio no jogo.
