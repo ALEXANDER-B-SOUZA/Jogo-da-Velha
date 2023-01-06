@@ -1,10 +1,9 @@
 /* pegando caracter escolhido pelo cliente e guardando na variável caracter1 */
 
-var comparar = "x";
-function clickTeclado(letra){
-    }
 
-if(letra = comparar){
+function clickTeclado(letra){
+       
+if(letra == "X"){
     var jogador1 = "x";
     var jogador2 = "O";
 } else {
@@ -12,3 +11,4 @@ if(letra = comparar){
     var jogador2 = "X";
 }
  alert(jogador2);
+}
