@@ -12,6 +12,18 @@
         var jogador1 = "O";
         var jogador2 = "X"; 
         }    
-        console.log("seu  caractrer é o " +jogador1);   
-        console.log("O caracter do seu adversário é o " +jogador2);
-    }       
+                 
+var contador = 0;
+while (contador <= 9){
+    
+    if(contador/2 != 0){
+        var atual = jogador1;
+    } else{
+        var atual = jogador2;
+    }
+    document.getElementById("jogadorAtual").innerHTML = "É a vez do "+ atual;
+    contador++;
+}
+}
+             
+     
