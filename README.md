@@ -8,7 +8,7 @@ Tarefas
 [X] Criar divisões do jogo.
 [X] Colocar frase para insentivar jogador a escolher um dos caracteres.
 [X] fazer o programa reconhecer o caracter escolhido. como avatar do cliente e guardar para usar no jogo.
-[ ] fazer o programa reconhecer o caracter não escolhido como avatar da máquina e guardar para usar no jogo.
+[X] fazer o programa reconhecer o caracter não escolhido como avatar da máquina e guardar para usar no jogo.
 [ ] Fazer programa identificar local onde cliente clicou no jogo e marcar visualmente com o caracter que o represente.
 [ ] Fazer a máquina marcar aleatoriamente com o seu respectivo caracter um espaço vazio no jogo.
 [ ]Fazer programa reconhecer que caso sequencias: 1,2,3; 4,5,6; 7,8,9; 1,4,7; 2,5,8; 3,6,9; 1,5,9; 3,5,7; o dono do caracter é o vencedor.

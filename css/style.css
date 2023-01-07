@@ -15,9 +15,28 @@ td{
     border: 5px rgb(0, 0, 2) solid ;
 }
 /* alterando posicionamento da tabela */
-table{  
-    border-collapse: collapse;
-}
+.jogo {
+    display : grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  button  {
+    width :  3em ;
+    height :  100px;
+    margin :  5px ;
+    cursor: pointer; 
+    font-size :  50px ;
+    background :  #f7f7f7 ;
+    align-self: center;
+  }
+  button.teclado{
+    width :  50px ;
+    height :  40px ;
+    margin :  5px ;
+    cursor: pointer; 
+    font-size :  30px ;
+    background :  #f7f7f7 ;
+    grid-template-columns: 200px 200px 200px 200px;
+  }
 /* manipulando caixa delimitadora do jogo */
 .caixa{
     width:750px;
