@@ -13,9 +13,9 @@
         var jogador2 = "X"; 
         }    
                  
-var contador = 0;
-while (contador <= 9){
-    
+var contador = 1;
+
+while (contador <= 9){    
     if(contador/2 != 0){
         var atual = jogador1;
     } else{
@@ -23,7 +23,15 @@ while (contador <= 9){
     }
     document.getElementById("jogadorAtual").innerHTML = "É a vez do "+ atual;
     contador++;
+    function selecao(numero){ 
+   var play1 = [item1, item2, item3, item4, item5];
+   var play2 = [ item1, item2, item3, item4, item5]
+   if(atual ==="x"){
+    play1 = numero;
+   } else{
+    paly2 = numero;
+   }
+console.log(paly1, play2)
 }
-}
-             
-     
+}          
+}    
