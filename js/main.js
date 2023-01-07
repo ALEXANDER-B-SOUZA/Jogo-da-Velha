@@ -24,6 +24,7 @@ while (contador <= 9){
     document.getElementById("jogadorAtual").innerHTML = "É a vez do "+ atual;
     contador++;
     function selecao(numero){ 
+    document.getElementById("selecao").innerHTML = atual;  
    var play1 = [item1, item2, item3, item4, item5];
    var play2 = [ item1, item2, item3, item4, item5]
    if(atual ==="x"){
