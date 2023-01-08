@@ -12,27 +12,29 @@
         var jogador1 = "O";
         var jogador2 = "X"; 
         }    
-                 
+   /*criando repetição de jogadas, começando com o jogador1*/              
 var contador = 1;
 
 while (contador <= 9){    
-    if(contador/2 != 0){
-        var atual = jogador1;
-    } else{
+    if(contador % 2 == 0){
         var atual = jogador2;
-    }
+    } else{
+        var atual = jogador1;    
     document.getElementById("jogadorAtual").innerHTML = "É a vez do "+ atual;
     contador++;
-    function selecao(numero){ 
-    document.getElementById("selecao").innerHTML = atual;  
+    /* Criando marcação com as escolhas dos jogadores.*/
+    document.getElementById("selecao").innerHTML = atual;
+}
+
+}
+}
+    /*
    var play1 = [item1, item2, item3, item4, item5];
    var play2 = [ item1, item2, item3, item4, item5]
    if(atual ==="x"){
     play1 = numero;
    } else{
-    paly2 = numero;
-   }
-console.log(paly1, play2)
-}
-}          
-}    
+    paly2 = numero;*/
+ 
+        
+  
