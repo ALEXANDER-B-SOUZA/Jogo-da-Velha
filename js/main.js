@@ -25,16 +25,22 @@ while (contador <= 9){
 }
     /* Criando marcação com as escolhas dos jogadores.*/
     function exibir() {
-      var escolha = document.getElementById("jogo").children.getElementById("selecao").innerHTML;
+      var escolha = document.getElementById("jogo").children.getElmentsByClassName("selecao").innerHTML = atual;
         
 /*Criando repositório de marcação para comparar vencedor*/
-   var play1 = [item1, item2, item3, item4, item5];
-   var play2 = [ item1, item2, item3, item4, item5]
+   var playX = [item1, item2, item3, item4, item5];
+   var playO = [ item1, item2, item3, item4, item5]
 
    if(atual ==="x"){
-    play1 = escolha;
+    playX = escolha;
    } else{
-    paly2 = escolha;
+    playO = escolha;
+}
+/*verificando o vencedor*/
+if(playX == 1,2,3 || 4,5,6 || 7,8,9 || 1,4,7 || 2,5,8 || 3,6,9 || 1,5,9 || 3,5,7){
+    alert("O jogador X é o vencedor!");
+} else if (playO == 1,2,3 || 4,5,6 || 7,8,9 || 1,4,7 || 2,5,8 || 3,6,9 || 1,5,9 || 3,5,7){
+    alert("O jogador O é o vencedor!");
 }
  }
  }
