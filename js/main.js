@@ -22,19 +22,23 @@ while (contador <= 9){
         var atual = jogador1;    
     document.getElementById("jogadorAtual").innerHTML = "É a vez do "+ atual;
     contador++;
+}
     /* Criando marcação com as escolhas dos jogadores.*/
-    document.getElementById("selecao").innerHTML = atual;
-}
-
-}
-}
-    /*
+    function exibir() {
+      var escolha = document.getElementById("jogo").children.getElementById("selecao").innerHTML;
+        
+/*Criando repositório de marcação para comparar vencedor*/
    var play1 = [item1, item2, item3, item4, item5];
    var play2 = [ item1, item2, item3, item4, item5]
+
    if(atual ==="x"){
-    play1 = numero;
+    play1 = escolha;
    } else{
-    paly2 = numero;*/
+    paly2 = escolha;
+}
+ }
+ }
+} 
  
         
   
