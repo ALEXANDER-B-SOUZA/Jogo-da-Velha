@@ -1,6 +1,7 @@
 /*alterando cor e posicionamento h1 e div*/
 
 h1, div{
+	
     width:500px;
     font-family: fantasy;
     font-size: 1em; 
