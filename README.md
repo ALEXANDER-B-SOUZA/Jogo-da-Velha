@@ -17,7 +17,7 @@ Tarefas
 [ ] Caso todas as casas forem preenchidas sem que haja vencedor, exibir a mensagem:" Partida empatada." e habilitar o botão reiniciar.
 [ ] O botão "reiniciar", retoma ao inicio, guardando o mesmo caracter escolhido anteriormente.
 [ ] O botão "novo jogo", retoma ao inicio, e o cliente deve escolher novamente o caracter, zerando o contador. 
-
+   
 
 Extras
 
