@@ -2,6 +2,7 @@
 
 Tarefas
 
+
 [X] Criar delimitação do jogo.
 [X] Criar dois botões, um com "x" e outro com "o".
 [X] Criar uma cor de fundo.
